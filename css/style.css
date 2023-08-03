@@ -1,0 +1,134 @@
+body{
+	background:#e8e8e8 url(Ellipse.png)50% 135px no-repeat;
+}
+
+.content__top {
+	padding: 125px 0 137px 0;
+	max-width: 841px;
+	margin: 0px auto;
+
+}
+.content__top1{
+	text-align: center;
+}
+.content__title {
+	/* Style for "Travel" */
+opacity: 0.6;
+color: #273d46;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.8px;
+text-align: center;
+margin: 0px 0px 28px 0px;
+}
+.content__category {
+	/* Style for "Donec sed" */
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 36px;
+font-weight: 400;
+line-height: 50px;
+text-align: center;
+margin: 0px 0px 77px 0px;
+}
+
+
+
+.content__image {
+	padding: 10px;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	max-width: 100%;
+	margin: 0px 0px 90px 0px;
+}
+.content__image img{
+		max-width: 100%;
+}
+
+
+.content__bottom__box {
+padding: 0px 45px;
+}
+
+.content-bottom__text {
+	/* Style for "Donec ared" */
+opacity: 0.8;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+}
+.content-bottom__text p {
+	margin: 0px 0px 40px 0px;
+}
+
+
+.content__bottom__list li{
+	font-family:"Arial";
+	font-size: 20px;
+	margin: 0px 0px 13px 0px;
+	background: url(check_icon.png)left no-repeat;
+	padding: 0 0px 0 35px;
+	list-style-type: none;
+}
+.content__bottom__list li:nth-child(1){
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+color: #273d46;
+font-weight: 400;
+
+}
+.content__bottom__list li:nth-child(2){
+color: #80b7b3;
+font-weight: 400;
+font-style: italic;
+}
+.content__bottom__list li:nth-child(3){
+color: #273d46;
+font-weight: bold;
+}
+.content__bottom__list li:nth-child(4){
+font-weight: 400;
+text-decoration: line-through;
+}
+.content__bottom__list li:nth-child(4) span{
+opacity: 0.3;
+}
+
+
+.footer__click {
+	height: 44px;
+	display: inline-block;
+	line-height: 44px;
+	padding: 0px 25px;
+	border-radius: 24px;
+	background-color: #80b7b3;
+
+	color: #ffffff;
+	-webkit-box-shadow:0px 6px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 6px 0px rgba(0,0,0,0.6);
+	font-family: "Arial";
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+
+
+}
+.footer__click span{
+	background-image: url(Shape_2.png) ;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding:0px 32px 0px 0px;
+
+}
+.footer__click:hover{
+	background-color: #471d20;
+}
+.footer__click:active{
+	position: relative;
+	top: 4px;
+	box-shadow: 0px 6px 0px rgba(0,0,0,0.6);
+	-webkit-box-shadow:0px 6px 0px rgba(0,0,0,0.6);
+}
+
