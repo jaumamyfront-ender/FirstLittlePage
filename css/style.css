@@ -2,12 +2,12 @@ body {
   background: #e8e8e8 url(../img/Ellipse.png) 50% 135px no-repeat;
 }
 
-.content__top {
+.wrapper {
   padding: 125px 0 137px 0;
   max-width: 841px;
   margin: 0px auto;
 }
-.content__top {
+.header {
   text-align: center;
 }
 .title {
